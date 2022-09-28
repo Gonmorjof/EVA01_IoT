@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityDos"
+    android:background="@drawable/fondo"
+    >
+
+
+    <TextView
+        android:id="@+id/txt_add_dispen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/txt_agregar_dispensador"
+        android:textSize="30dp"
+        android:background="@color/back"
+        android:textColor="@color/black"
+        android:fontFamily="@font/prompt_light"
+        />
+
+    <ImageView
+        android:id="@+id/ic_patita"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_toLeftOf="@id/ic_patita_gato"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="7dp"
+        android:src="@drawable/patita"
+        />
+
+    <ImageView
+        android:id="@+id/ic_patita_gato"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="7dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/patita_gato"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/fondo_form">
+
+        <EditText
+            android:id="@+id/txt_nom_disp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/prompt_light"
+            android:hint="Nombre dispensador"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/txt_lug_disp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_nom_disp"
+            android:fontFamily="@font/prompt_light"
+            android:hint="Lugar dispensador"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_Save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_lug_disp"
+            android:layout_marginStart="50dp"
+            android:backgroundTint="@color/back"
+            android:fontFamily="@font/prompt_light"
+            android:text="guardar"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_lug_disp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="50dp"
+            android:backgroundTint="@color/back"
+            android:fontFamily="@font/prompt_light"
+            android:text="cancelar"
+            android:textColor="@color/black" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">eva01_iot</string>
+    <string name="txt_misDispensadores">Mis Dispensadores</string>
+    <string name="txt_dispensador_1_firulais">Dispensador Firulais</string>
+    <string name="txt_dispensador_2_michi">Dispensador Michi</string>
+    <string name="txt_agregar_dispensador">Nuevo Dispensador</string>
+    <string name="txt_lugar">Lugar:</string>
+    <string name="txt_nivel_del_alimento">Nivel del alimento:</string>
+    <string name="txt_temperatura_del_agua">Temperatura del agua:</string>
+    <string name="txt_nivel_del_agua">Nivel del agua:</string>
+    <string name="txt_mis_dispensadores">Mis Dispensadores</string>
+</resources>
