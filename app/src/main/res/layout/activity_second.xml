@@ -8,7 +8,6 @@
     android:background="@drawable/fondo"
     >
 
-
     <TextView
         android:id="@+id/txt_add_dispen"
         android:layout_width="match_parent"
@@ -93,7 +92,6 @@
             android:fontFamily="@font/prompt_light"
             android:text="cancelar"
             android:textColor="@color/black" />
-
 
     </RelativeLayout>
 
